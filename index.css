@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    
+    height: 100vh;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  max-width: 600px;
+  border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    
+    
+}
+@media (max-width: 600px) {
+    .box {
+      flex-direction: column;
+      max-width: 100%;
+    }
+  }
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+#info{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Fraunces", serif;
+    
+
+}
+#info-box{
+    max-width: 300px;
+}
+#photo{
+    width: 50%;
+}
+#img{
+    max-width: 100%;
+    object-fit: cover;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#button{
+    margin-top: 20px;
+    
+    color: hsl(0, 0%, 100%);
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 16px;
+
+    background-color: hsl(158, 36%, 37%)    
+}
+#button:hover {
+    background-color: hsl(158, 42%, 30%);
+}
+#prc-org{
+    text-decoration: line-through;
+    font-size: 20px;
+    line-height: 20px;
+    
+    color:  hsl(228, 12%, 48%)
+
+
+}
+#prc-dsc{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 22px;
+    color: hsl(158, 36%, 37%)
+}
+h1{
+    color:  hsl(212, 21%, 14%)
+}
+.prices{
+    margin: 15px;
+}
+#content{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    color:  hsl(228, 12%, 48%)
+    
+
+}
+#content-info{
+    font-family: "Montserrat", sans-serif;
+    color:  hsl(228, 12%, 48%);
+  
+    
+
+
+}
+#baslik{
+    font-family: "Fraunces", serif;
+    margin: 10px 0;
+}
